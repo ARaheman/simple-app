@@ -5,6 +5,6 @@ describe('App', function() {
   it('has the default page', function(done) {
     request(app)
       .get('/')
-      .expect(/Welcome to sample-app/, done);
+      .expect(/Welcome to simple-app/, done);
   });
 });
